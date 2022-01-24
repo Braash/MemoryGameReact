@@ -1,4 +1,4 @@
-#BRALE 
+# BRALE 
 
 Node Modules was deleted before submission, please download node modules before running application.
 install: npm install (in the terminal)
