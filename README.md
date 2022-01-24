@@ -3,7 +3,20 @@
 Node Modules was deleted before submission, please download node modules before running application.
 install: npm install (in the terminal)
 
-Rules of BRALE are at the bottom of the file.
+How to play BRALE:
+
+Firstly, the player has a certain amount of clicks(which results in the flipping of the selected card, the click triggers the flip event) to match all 8 cards.
+
+The player clicks on a card and this event will flip the card over. Be sure not to click on the surrounding cards to quickly, allow the card finsih flipping.
+
+The player then selects another card and turns it over. If the two cards are a match, then the matched cards will remain flipped.
+
+If the cards are not a match they are flipped back over.
+            
+Winning the Game: Once the player has matched all the cards without exceeding the limited amount of clicks, the player wins the game.
+            
+Losing the Game:If the player exceeds the limited amount of clicks without matching all the cards, the player loses the game.
+BRALE
 
 Please follow README File to start:
 
@@ -77,20 +90,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-How to play BRALE:
-
-Firstly, the player has a certain amount of clicks(which results in the flipping of the selected card, the click triggers the flip event) to match all 8 cards.
-
-The player clicks on a card and this event will flip the card over. Be sure not to click on the surrounding cards to quickly, allow the card finsih flipping.
-
-The player then selects another card and turns it over. If the two cards are a match, then the matched cards will remain flipped.
-
-If the cards are not a match they are flipped back over.
-            
-Winning the Game: Once the player has matched all the cards without exceeding the limited amount of clicks, the player wins the game.
-            
-Losing the Game:If the player exceeds the limited amount of clicks without matching all the cards, the player loses the game.
-BRALE
             
